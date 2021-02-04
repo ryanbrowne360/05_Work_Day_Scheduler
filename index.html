@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="dayAndTime"></p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col, hour padding2" id="ninetime">09</div>
+      <input class="col" id="nineinput"></input>
+      <button class="col, saveBtn" id="ninesave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="tentime">10</div>
+      <input class="col" id="teninput"></input>
+      <button class="col, saveBtn" id="tensave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="eleventime">11</div>
+      <input class="col" id="eleveninput"></input>
+      <button class="col, saveBtn" id="elevensave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="twelvetime">12</div>
+      <input class="col" id="twelveinput"></input>
+      <button class="col, saveBtn" id="twelvesave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="thirteentime">13</div>
+      <input class="col" id="thirteeninput"></input>
+      <button class="col, saveBtn" id="thirteensave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="fourteentime">14</div>
+      <input class="col" id="fourteeninput"></input>
+      <button class="col, saveBtn" id="fourteensave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="fifteentime">15</div>
+      <input class="col" id="fifteeninput"></input>
+      <button class="col, saveBtn" id="fifteensave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="sixteentime">16</div>
+      <input class="col" id="sixteeninput"></input>
+      <button class="col, saveBtn" id="sixteensave"><i class="far fa-save padding1"></i></button>
+    </div>
+    <div class="row">
+      <div class="col, hour" id="seventeentime">17</div>
+      <input class="col" id="seventeeninput"></input>
+      <button class="col, saveBtn" id="seventeensave"><i class="far fa-save padding1"></i></button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
