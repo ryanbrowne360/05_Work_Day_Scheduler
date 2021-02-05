@@ -34,5 +34,5 @@ No License is required. You are free to use and modify this program as desired.
 ![HTML](https://img.shields.io/badge/HTML-100%25-orange)
 ![CSS](https://img.shields.io/badge/CSS-100%25-yellowgreen)
 
-![image](./Screenshot 2021-02-05 162322.png)
-![image](./Screenshot 2021-02-05 162400.png)
+![image](https://github.com/ryanbrowne360/05_Work_Day_Scheduler/blob/main/Screenshot%202021-02-05%20162322.png)
+![image](https://github.com/ryanbrowne360/05_Work_Day_Scheduler/blob/main/Screenshot%202021-02-05%20162400.png)
