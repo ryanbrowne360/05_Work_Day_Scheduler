@@ -1,46 +1,40 @@
-# 05 Third-Party APIs: Work Day Scheduler
+[**React Portfolio**](https://github.com/ryanbrowne360/reactportfolio)
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Description:
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+This application is simply a webpage using the React.js technology. It is a portfolio for myself as a web developer.
 
-## User Story
+Installation:
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+In order to deploy this application, you simply need a browser that is capabale of supporting the technologies used in creating this react webpage. A recomended browser would be google chrome. To see if you have a browser capable of viewing the webpage, just [Follow this link](https://ryanbrowne360.github.io/reactportfolio/). If you have the files on your computer, and you want to run it offline via your localhost; you need to have node.js installed. Once Node.js is installed, you then have to run "npm start" from the command line, and be in the directory which contains the application files.
 
-## Acceptance Criteria
+[Hosted Application on Github Pages](https://ryanbrowne360.github.io/reactportfolio/)
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+Usage:
 
-The following animation demonstrates the application functionality:
+When the user visits this website, they are able to easily navigate around the pages. They can learn about projects I have completed on my portfolio page, they can contact me, view my github page, and see my resume.
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+- *Google Chrome*
+- *JavaScript*
+- *Node.js*
+- *React.js*
+- *JSX*
+- *HTML*
+- *CSS*
+- *Ryan Browne Software Developer* [Ryan Browne](https://github.com/ryanbrowne360/)
 
-## Review
+References:
 
-You are required to submit the following for review:
+- [w3schools](https://www.w3schools.com/)
+- [React.js Documentation](https://reactjs.org/docs/getting-started.html)
+- [Node.js](https://nodejs.org/en/docs/)
 
-* The URL of the deployed application.
+License:
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+No License is required. You are free to use and modify this program as desired.
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![HTML](https://img.shields.io/badge/HTML-100%25-orange)
+![CSS](https://img.shields.io/badge/CSS-100%25-yellowgreen)
+
+![image](https://github.com/ryanbrowne360/reactportfolio/blob/main/Screenshot%202020-11-24%20122618.png)
